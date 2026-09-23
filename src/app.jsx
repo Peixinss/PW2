@@ -2,12 +2,19 @@ import React, { useState } from 'react';
 import Nome from './Nome';
 import Contador from './Contador';
 
-function App() {​
+function App(){
+    return(
+        <div>
+            <div>
+                <h2>O nome é:</h2>
+                <Nome nome= "Renan" />
+            </div>
 
-return (​)
-
-
-<Contador />​
-}​
+            <div>
+                <Contador/>
+            </div>
+        </div>
+    );
+}
 
 export default App;
